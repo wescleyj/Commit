@@ -7,18 +7,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav>
-    <a href="index.html">Início</a> |
-    <a href="historia.html">História</a> |
-    <a href="galeria.html">Galeria</a> |
-    <a href="curriculo.html">Currículo</a>
-</nav>
+    <nav>
+        <a href="index.html">Início</a> |
+        <a href="historia.html">História</a> |
+        <a href="galeria.html">Galeria</a> |
+        <a href="curriculo.html">Currículo</a>
+    </nav>
 
-<h1>Olá, eu sou Wescley Júnior.</h1>
-<h2>Estudante de Engenharia de Computação no CEFET-MG.</h2>
+    <main class="hero-container">
+        <section class="texto-principal">
+            <h1>I'M WESCLEY JÚNIOR</h1>
+            <p>Estudante de Engenharia da Computação. Focado em desenvolver soluções eficientes e aprender continuamente novas linguagens e tecnologias.</p>
+            <a href="historia.html" class="link-mais">See More About Me &rarr;</a>
+        </section>
 
-<h3>Sobre mim (Resumo):</h3>
-<p>Desenvolvedor focado em criar soluções eficientes e no aprendizado contínuo de novas linguagens e tecnologias. Tenho experiência prática com diversas linguagens de programação e ferramentas de desenvolvimento, buscando sempre otimizar processos e arquiteturas de software.</p>
-<img src="/data/img1.png" alt="Imagem do Wescley">
+        <aside class="bloco-codigo">
+            <div class="terminal-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+            </div>
+            <div class="terminal-body">
+			<pre><code>
+// GET /api/profile/wescley
+{
+  "status": 200,
+  "data": {
+    "name": "Wescley Júnior",
+    "education": "Computer Engineering @ CEFET-MG",
+    "stack": {
+      "languages": ["C", "Java", "Python", "JavaScript", "Shell Script"],
+      "frontend": ["HTML5", "CSS3", "React.js", "Figma"],
+      "backend": ["Django", "WordPress", "n8n"],
+      "environment": ["Linux", "Git", "Vim"]
+    },
+    "methodologies": ["Agile", "Scrum", "Kanban"]
+  }
+}
+			</code></pre>
+            </div>
+        </aside>
+    </main>
 </body>
 </html>
