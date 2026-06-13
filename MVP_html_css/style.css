@@ -1,3 +1,4 @@
+/* REGRAS GLOBAIS */
 * {
     margin: 0;
     padding: 0;
@@ -8,30 +9,35 @@ body {
     background-color: #0d1117;
     color: #c9d1d9;
     font-family: monospace, sans-serif;
+    line-height: 1.6;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 70%;
-    padding-right: 3%;
-    padding-top: 2%;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #161b22;
+    border-bottom: 1px solid #30363d;
 }
 
 nav a {
+    color: #58a6ff;
     text-decoration: none;
-    color: white;
-
+    margin: 0 0.5rem;
+    font-weight: bold;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* REGRAS: INDEX.HTML */
 .hero-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
-    min-height: 95vh;
+    min-height: calc(100vh - 70px);
     padding: 2rem;
     gap: 2rem;
 }
@@ -62,7 +68,6 @@ nav a {
 
 .bloco-codigo {
     flex: 1;
-    font-size: 0.9rem;
     background-color: #161b22;
     border: 1px solid #30363d;
     border-radius: 8px;
@@ -98,6 +103,38 @@ nav a {
     word-wrap: break-word;
 }
 
+/* REGRAS: HISTORIA.HTML */
+.historia-container {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+.historia-container h3 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 0.5rem;
+}
+
+.historia-container p {
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    color: #8b949e;
+    text-align: justify;
+}
+
+.historia-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+    border: 1px solid #30363d;
+    display: block;
+}
+
+/* RESPONSIVIDADE (GLOBAL) */
 @media (max-width: 768px) {
     .hero-container {
         flex-direction: column;
