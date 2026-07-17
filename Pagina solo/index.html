@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Início - MVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#historia">Sobre</a>
+        <a href="#galeria">Contato</a>
+        <a href="#curriculo">Curriculo</a>
+    </nav>
+    <main>
+        <section id="inicio" class="hero-container">
+            <div>
+                <h1>I'M WESCLEY JÚNIOR</h1>
+                <p>Estudante de Engenharia da Computação. Focado em desenvolver soluções eficientes e aprender continuamente novas linguagens e tecnologias.</p>
+            </div>
+            <img src="data/img.png" height="528" width="614"/>
+        </section>
+
+        <section id="historia" class="historia-container">
+            <h3>Minha Trajetória</h3>
+            <p>Nasci em 7 de novembro de 2005 e resido na região de Betim e Belo Horizonte, Minas Gerais. Meu interesse por tecnologia me levou a ingressar no curso de Engenharia de Computação no CEFET-MG.</p>
+            <p>Ao longo do meu desenvolvimento acadêmico e profissional, direcionei meu foco para a engenharia de software e a construção de aplicações web. Minha rotina técnica é fortemente baseada em ambientes Linux e no uso de ferramentas de linha de comando. Além da programação tradicional, dedico tempo ao estudo contínuo de novos frameworks, segurança da informação e metodologias ágeis para gerenciamento de projetos.</p>
+            <p>Fora do escopo técnico, mantenho o hábito de estudar idiomas, jogar xadrez e acompanhar o desenvolvimento de novas ferramentas de inteligência artificial.</p>
+            <img src="data/img1.jpg" alt="Imagem do evento EDL Minas 2026">
+        </section>
+
+        <section id="galeria" class="galeria-wrapper">
+            <h3>Galeria de Fotos</h3>
+            <div class="galeria-container">
+                <img src="data/img2.jpg" alt="Gato style">
+                <img src="data/img3.webp" alt="Gato rindo">
+                <img src="data/img4.jpg" alt="Gato fulo">
+                <img src="data/img5.jpg" alt="Gato debochado">
+            </div>
+        </section>
+
+        <section id="curriculo" class="curriculo-container">
+            <h3>Experiência e Stack</h3>
+            <div class="curriculo-content">
+                <div class="experiencia-texto">
+                    <h4>Experiências Profissionais</h4>
+                    <p>Desenvolvimento de chatbots, landing pages, e-commerces e sistemas.</p>
+                    <p>Atualmente Diretor de Projetos da Commit Jr, Empresa Júnior do CEFET-MG.</p>
+                </div>
+                <div class="bloco-codigo">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="terminal-body">
+				<pre><code>// GET /api/profile/wescley
+{
+	"status": 200,
+	"data": {
+		"name": "Wescley Júnior",
+		"education": "Computer Engineering @ CEFET-MG",
+		"stack": {
+			"languages": ["C", "Java", "Python", "JavaScript",
+                    "Shell Script"],
+			"frontend": ["HTML5", "CSS3", "React.js", "Figma"],
+			"backend": ["Django", "WordPress", "n8n"],
+			"environment": ["Linux", "Git", "Vim"]
+		},
+		"methodologies": ["Agile", "Scrum", "Kanban"]
+	}
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

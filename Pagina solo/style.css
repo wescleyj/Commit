@@ -10,7 +10,6 @@ body {
     color: #c9d1d9;
     font-family: monospace, sans-serif;
     line-height: 1.6;
-    padding-top: 70px;
 }
 
 /* REGRAS: nav*/
@@ -79,7 +78,7 @@ nav a:hover {
 /* REGRAS: section historia */
 .historia-container {
     max-width: 70vw;
-    margin: 10px auto;
+    margin: 3rem auto;
     padding: 0 2rem;
 }
 
@@ -192,7 +191,7 @@ nav a:hover {
 /* REGRAS: section galeria */
 .galeria-wrapper {
     max-width: 70vw;
-    margin: 10px auto;
+    margin: 3rem auto;
     padding: 0 2rem;
 }
 
@@ -219,7 +218,7 @@ nav a:hover {
     border: 1px solid #30363d;
 }
 
-/* Estrutura o do Mosaico (4 Imagens) */
+/* Estruturação do Mosaico (4 Imagens) */
 .galeria-container img:nth-child(1) {
     grid-column: span 2;
     grid-row: span 2;

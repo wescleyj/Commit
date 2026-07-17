@@ -3,32 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Currículo - MVP</title>
+    <title>Início - MVP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav>
-    <a href="index.html">Início</a> |
-    <a href="historia.html">História</a> |
-    <a href="galeria.html">Galeria</a> |
-    <a href="curriculo.html">Currículo</a>
-</nav>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="historia.html">Sobre</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="curriculo.html">Curriculo</a>
+    </nav>
+    <main>
+        <section id="curriculo" class="curriculo-container">
+            <h3>Experiência e Stack</h3>
+            <div class="curriculo-content">
+                <div class="experiencia-texto">
+                    <h4>Experiências Profissionais</h4>
+                    <p>Desenvolvimento de chatbots, landing pages, e-commerces e sistemas.</p>
+                    <p>Atualmente Diretor de Projetos da Commit Jr, Empresa Júnior do CEFET-MG.</p>
+                </div>
+                <div class="bloco-codigo">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="terminal-body">
+				<pre><code>// GET /api/profile/wescley
+{
+	"status": 200,
+	"data": {
+		"name": "Wescley Júnior",
+		"education": "Computer Engineering @ CEFET-MG",
+		"stack": {
+			"languages": ["C", "Java", "Python", "JavaScript",
+                    "Shell Script"],
+			"frontend": ["HTML5", "CSS3", "React.js", "Figma"],
+			"backend": ["Django", "WordPress", "n8n"],
+			"environment": ["Linux", "Git", "Vim"]
+		},
+		"methodologies": ["Agile", "Scrum", "Kanban"]
+	}
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
 
-<h3>Currículo Profissional</h3>
-<dl>
-    <dt>Dados Pessoais:</dt>
-    <dd>Nome: Wescley Júnior</dd>
-    <dd>Localização: Betim - MG, Brasil</dd>
-    <dt>Educação:</dt>
-    <dd>Engenharia de Computação – CEFET-MG (Em andamento)</dd>
-    <dt>Stack Tecnológico e Ferramentas:</dt>
-    <dd>Linguagens: C, Java, Python, JavaScript, Verilog, Shell Script.</dd>
-    <dd>Frontend & Design: HTML5, CSS3, React.js, Figma.</dd>
-    <dd>Backend & CMS: Django, WordPress, n8n.</dd>
-    <dd>Ferramentas & Ambiente: Linux, Git, Vim, VS Code, Pip.</dd>
-    <dt>Experiência Prática / Projetos:</dt>
-    <dd>Desenvolvimento e deploy de aplicações web utilizando plataformas como Vercel.</dd>
-    <dd>Implementação de soluções envolvendo automação de processos e integrações (n8n).</dd>
-</dl>
+    </footer>
 </body>
 </html>
